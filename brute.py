@@ -1,4 +1,5 @@
 from foxfm import *
+pa = re.compile(r"")
 def brute(x):
     # 可以使用str(input_content,"utf8")对bytes类型进行转换
     # 使用bytes(input_content)对str进行转换，或者strings.encode()会将str转换为bytes类型
@@ -27,3 +28,4 @@ def brute(x):
 def test():
     brute("256(XXXX+OnwvYZOWEetdqRcp) == 201fef4cbd94ba720137875fbadee6bb5eb9f78a932b00af9db881048105151d")
 # test()
+print(int("123 ")==123)
